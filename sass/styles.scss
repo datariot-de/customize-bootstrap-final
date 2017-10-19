@@ -1,0 +1,37 @@
+//
+@import "variables";
+// add an import of bootstrap from it's sass file
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// code your custom style
+.jumbotron {
+  color: $white;
+  border-radius: 0;
+  padding-top: 4rem;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+
+// EXAMPLE FOR STH ELSE
+
+/*
+ul.do-not-change-my-html {
+  padding: 0;
+  @include make-row();
+
+  > li {
+    list-style-type: none;
+    @include make-col-ready();
+    @include make-col(6);
+
+    @include media-breakpoint-up(md) {
+      @include make-col(3);
+    }
+  }
+}
+*/
+

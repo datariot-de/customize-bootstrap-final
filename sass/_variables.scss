@@ -1,0 +1,19 @@
+// a container's maximum with should never be wider than 1020px,
+// so adjust the vaules for xlarge screens
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1020px
+);
+
+// our custom jumbotron style
+$jumbotron-bg: black;
+
+// Change the grid's gutter to 20px
+$grid-gutter-width: 20px;
+
+// adjust the values for border radii
+$border-radius:          1.75rem;
+$border-radius-lg:       1.75rem;
+$border-radius-sm:       1.75rem;
